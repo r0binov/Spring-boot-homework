@@ -2,7 +2,8 @@
 
 ### How to run the application
 
-Since I am running docker with postgres you will need to have docker installed.
+Since I am running docker with PostgreSQL you will need to have docker installed.
+I have used DBeaver to run all the commands, but it is really up to you what you use for database management
 
 * Run the command in powershell or terminal 
 #### docker run --name spring-api-demo -e POSTGRES_PASSWORD=thisispassword -p 5432:5432 -m 512m -d postgres:12.0
